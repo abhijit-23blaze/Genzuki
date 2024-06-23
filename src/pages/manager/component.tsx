@@ -104,6 +104,7 @@ class Manager extends React.Component<ManagerProps, ManagerState> {
               alt=""
               className="waring-pic"
             />
+            <Sidebar />
           </div>
         </>
       );
