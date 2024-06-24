@@ -65,6 +65,7 @@ class RecordLocation {
     let index = window._.findLastIndex(arr, { fingerprint });
     if (index > -1) {
       return arr[index] || {};
+      
     } else {
       return {};
     }
