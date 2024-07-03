@@ -218,7 +218,7 @@ class BookCoverItem extends React.Component<BookCoverProps, BookCoverState> {
               </div>
             ) : (
               <img
-                data-src={"https://images.pexels.com/photos/5530604/pexels-photo-5530604.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
+                data-src={this.props.book.cover}
                 alt=""
                 style={
                   this.state.direction === "horizontal" ||
